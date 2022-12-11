@@ -762,6 +762,8 @@ input, select, textarea {
 
 	form {
 		margin: 0 0 2em 0;
+		max-width: 24rem;
+
 	}
 
 		form > :last-child {
