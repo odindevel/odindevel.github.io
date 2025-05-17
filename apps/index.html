@@ -1,10 +1,119 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Example test</title>
-    </head>
-    <body>
-        <p>This is an example of a simple HTML page with one paragraph.</p>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Odin Development SRL</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      color: #fff;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1608379369055-0d3639d0c4ec?auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      padding: 0 1rem;
+      text-align: center;
+    }
+
+    .content {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .content p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .links {
+      margin-top: 2rem;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: #1a73e8;
+      font-weight: bold;
+      margin: 0 1rem;
+      transition: color 0.3s;
+    }
+
+    .links a:hover {
+      color: #0c54b0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 1.8rem;
+      }
+
+      .content p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Odin Development SRL</h1>
+  </header>
+
+  <section class="hero">
+    <h2>We craft beautiful, immersive mobile games and applications</h2>
+  </section>
+
+  <section class="content">
+    <p>
+      At Odin Development, our mission is to push the boundaries of creativity and technology.
+      We build elegant, story-rich mobile games and applications that captivate and inspire.
+      Whether it's strategic gameplay or seamless user experiences, we bring ideas to life.
+    </p>
+
+    <div class="links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="https://odindev.ro" target="_blank">Visit Our Website</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Odin Development SRL. All rights reserved.
+  </footer>
+
+</body>
 </html>
 
