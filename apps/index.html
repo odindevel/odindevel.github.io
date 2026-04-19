@@ -24,6 +24,13 @@
       font-size: 2rem;
     }
 
+    .badge-container {
+    display: flex;
+    gap: 2em;
+    align-content: center;
+    justify-content: center;
+    }
+
     .hero {
       background-image: url('../images/intro.jpg');
       background-size: cover;
@@ -85,6 +92,11 @@
       .content p {
         font-size: 1rem;
       }
+
+      .badge-container {
+      flex-direction: column;
+      align-items: center;
+      }
     }
   </style>
 </head>
@@ -103,24 +115,27 @@
       At Odin Development, our mission is to push the boundaries of creativity and technology.
       We build elegant, story-rich mobile games and applications that captivate and inspire.
       Whether it's strategic gameplay or seamless user experiences, we bring ideas to life.
-    <br><br>
-    <b>Princeps, a roman experience is out now!</b>
-    </p>
-    <p style="display: flex;gap: 2em;align-content: center;justify-content: center;">
-    <br>
-    <a href="https://apps.apple.com/us/app/princeps/id6748155139?itscg=30200&itsct=apps_box_badge&mttnsubad=6748155139" style="display: inline-block;">
-    <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1774656000" alt="Download on the App Store" style="width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" />
-    </a>
-    <a href="/images/myw3schoolsimage.jpg" download="w3logo">
-  <img src="../images/Android.png" alt="W3Schools" width="246" height="82">
-</a>
-    </p>
-
-    <div class="links">
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="https://odindev.ro" target="_blank">Visit Our Website</a>
-    </div>
-  </section>
+      <br><br>
+      <b>Princeps, a roman experience is out now!</b>
+      </p>
+      <p class="badge-container">
+        <a href="https://apps.apple.com/us/app/princeps/id6748155139?itscg=30200&itsct=apps_box_badge&mttnsubad=6748155139"
+          style="display: inline-block;">
+          <img
+            src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1774656000"
+            alt="Download on the App Store"
+            style="width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" />
+        </a>
+        <a href="/images/myw3schoolsimage.jpg" download="w3logo">
+          <img src="../images/Android.png" alt="W3Schools" width="246" height="82">
+        </a>
+      </p>
+      
+      <div class="links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="https://odindev.ro" target="_blank">Visit Our Website</a>
+      </div>
+      </section>
 
   <footer>
     <p> Copyright &copy; 2017-<script>document.write(new Date().getFullYear())</script> Odin Development S.R.L <br>All Rights Reserved</p>
